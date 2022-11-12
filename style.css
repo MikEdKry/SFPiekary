@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap'); 
+@keyframes fade {
+    0% { opacity: 0; }
+    5.5% { opacity: 1; }
+    20.5% { opacity: 1; }
+    25.5% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+body {
+    background: url(Images/5.jpg) no-repeat center center / cover;
+    font-family: 'Cantora One', sans-serif;
+    padding: 100px 0;
+}
+h3{
+  font-size: 20px;  
+  font-weight:bold ;
+  padding: 20px;
+  /* margin-bottom: 10px; */
+}
+.container {
+    width: 1100px;
+    min-height: 500px;
+    border: 5px solid white;
+    margin: auto;
+    background: white;
+}
+.header{
+    display: flex; 
+    height: 220px;
+}
+.title-block{
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    background: url(Images/2.jpg) no-repeat center center / cover; 
+    margin-right: 5px;
+}
+.title-block::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(241, 211, 145);
+    opacity: 0.8;
+}
+.title {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.userpic {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background: url(Images/3.jpg) no-repeat center center / cover;;
+}
+.nav ul {
+    display: flex;
+    background: rgb(241, 211, 145);
+    margin: 5px 0;
+    
+}
+.nav li a{
+    padding: 15px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    border-right: 1px solid rgb(245, 227, 188);
+    transition: .4s ;
+}
+.nav li a:hover {
+background: rgb(245, 227, 188);
+}
+.content-wrapper{
+    display: flex;
+}
+.content{
+    width: 50%;
+    padding: 20px;
+}
+.content p {
+    line-height: 20px;
+    text-indent: 25px;
+    padding: 10px 30px 10px 30px;
+}
+.content2{
+    width: 35%;
+    padding: 20px;
+}
+.content2 p {
+    line-height: 20px;
+    
+    padding-left: 50px;
+}
+.sidebar{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    background: url(Images/4.jpg)no-repeat center center / cover;
+}
+.fadein {
+    position:relative;
+    width: 65%;
+    height: 10em auto;
+    background: url(Images/6.jpg)no-repeat center center / cover;
+    
+}
+.fadein img {
+    position:absolute;
+    width: 460px;
+    height: 520px;
+    top:50%;
+    margin: 0;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+    animation-name: fade; animation-duration: 30.5s; animation-iteration-count: infinite;
+}
+.fadein img:nth-child(1) {
+    animation-delay: 0s;
+}
+.fadein img:nth-child(2) {
+    animation-delay: 5s;
+}
+.fadein img:nth-child(3) {
+    animation-delay: 10s;
+}
+.fadein img:nth-child(4) {
+    animation-delay: 15s;
+}
+.fadein img:nth-child(5) {
+    animation-delay: 20s;
+}
+.fadein img:nth-child(6) {
+    animation-delay: 25s;
+}
+.soc {
+    display: flex;
+    margin-left: 45px;
+}
+.soc p{
+    width: 50px;
+    height: 50px;
+    margin: 5px 15px 5px 5px;
+    padding: 0px;
+
+}
+.soc p a{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+}
+.face{
+    background: url(Images/f.jpg)no-repeat center center / cover;
+}
+.whats{
+    background: url(Images/w.jpg)no-repeat center center / cover;
+}
+.gmail{
+    background: url(Images/g.jpg)no-repeat center center / cover;
+}
+.godz{
+    display: flex
+}
+.sylka a{
+    text-decoration: none;
+    color: rgb(223, 30, 30);
+}
+.copywriter a{
+    text-decoration: none;
+    color: white; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+}

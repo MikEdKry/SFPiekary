@@ -1,0 +1,141 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .container {
+        width: 700px;
+    }
+    .header{
+        display: flex; 
+        height: 140px;
+    }
+    .title-block{
+        font-size: 45px;
+    }
+    .content p {
+        
+        padding: 5px 0px 5px 0px;
+    }
+    h3{
+        padding: 0px 0px 10px 0px;
+      }
+      .content2{
+        width: 45%;
+    }
+    .content2 p {
+        line-height: 20px;
+        font-size: 15px;
+        padding: 5px 0px 15px 10px;
+    }
+    .fadein {
+        width: 65%;
+        height: 10em auto;
+        background: none;
+    }
+    .fadein img {
+        width: 390px;
+        height: 450px;
+    }
+    .soc {
+        display: flex;
+        padding: 10px 0px 10px 0px;
+        margin: 0;
+    }
+    .soc p{
+        width: 50px;
+        height: 50px;
+        margin: 5px 15px 5px 15px;
+        padding: 0px;
+    
+    }
+    .soc p a{
+        display: flex;
+        width: 50px;
+        height: 50px;
+        padding: 0px;
+    }
+ }
+
+@media all and (max-width: 479px) {
+    body {
+        background: none;
+        padding: 0px;
+        min-height: auto;
+    }
+    .container {
+        width: 320px;
+        height: 700px;
+        
+    }
+    .header{
+        display: flex; 
+        height: 65px;
+    }
+    .title-block{
+        font-size: 20px;
+    }
+    .content-wrapper{
+        display:inline;
+    }
+    .content{
+        width: 300px;
+        padding: 10px;
+    }
+    .content2{
+        width: 300px;
+        padding: 10px;
+    }
+    .content2 p {
+        line-height: 20px;
+        font-size: 15px;
+        padding: 10px 0px 10px 15px;
+    }
+    h3{
+        font-size: 20px;
+        padding: 5px 5px 5px 5px;
+        text-decoration: none;
+      }
+    .content p {
+        font-size: 15px;
+        padding: 5px 5px 5px 5px;
+    }
+    .sidebar{
+        width: 280px;
+        height: 350px;
+        padding: 20px;
+        background: url(Images/4.jpg)no-repeat center center / cover;
+    }
+    .fadein {
+        width: 320px;
+        height: 360px;
+        background: none;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .fadein img {
+        width: 320px;
+        height: 360px;
+        margin: 0;
+        padding: 0;
+    }
+    .soc {
+        display: flex;
+        padding: 10px 0px 10px 0px;
+        margin: 0;
+    }
+    .soc p{
+        width: 40px;
+        height: 40px;
+        margin: 5px 15px 5px 15px;
+        padding: 0px;
+    
+    }
+    .soc p a{
+        display: flex;
+        width: 40px;
+        height: 40px;
+        padding: 0px;
+    }
+ }
